@@ -1,0 +1,47 @@
+{
+  "columns": {
+    "cues.tsv": [
+      "id",
+      "shift",
+      "turn",
+      "speaker",
+      "text"
+    ],
+    "rules.tsv": [
+      "id",
+      "role",
+      "valid_shifts",
+      "order_text"
+    ],
+    "slots.tsv": [
+      "id",
+      "start",
+      "station",
+      "coach",
+      "capacity",
+      "language"
+    ],
+    "roster.tsv": [
+      "id",
+      "shift",
+      "assignee",
+      "role",
+      "start",
+      "phase"
+    ],
+    "sessions.tsv": [
+      "id",
+      "rank",
+      "starts",
+      "practice"
+    ]
+  },
+  "references": [
+    [
+      "cues.tsv",
+      "shift",
+      "sessions.tsv"
+    ]
+  ],
+  "compound_keys": []
+}
